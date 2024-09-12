@@ -1,2 +1,2 @@
-# Hello-World
-This is my first repositry
+# Python Training
+This is my first repository
