@@ -1,41 +1,41 @@
 # Functions
 
-# def hello_function():
-#     print('Hello Function!')
+def hello_function():
+    print('Hello Function!')
 
 
-# hello_function()
-# hello_function()
-# hello_function()
-# hello_function()
+hello_function()
+hello_function()
+hello_function()
+hello_function()
 
-# print(hello_function())
+print(hello_function())
 
-# Functions help in many ways such as keeping the code dry
+Functions help in many ways such as keeping the code dry
 
-# def hello_function(greeting):
-#     return '{} Function.'.format(greeting).upper()
-
-
-# print(hello_function("Hey"))
-# # or
-# hello_function("Hey")
-
-# def hello_function(greeting,name = 'You'):
-#     return '{}, {}'.format(greeting,name)
+def hello_function(greeting):
+    return '{} Function.'.format(greeting).upper()
 
 
-# print(hello_function('Hi', name ='John'))
+print(hello_function("Hey"))
+# or
+hello_function("Hey")
+
+def hello_function(greeting,name = 'You'):
+    return '{}, {}'.format(greeting,name)
 
 
-# def student_info(*args,**kwargs):
-#     print(args)
-#     print(kwargs)
+print(hello_function('Hi', name ='John'))
 
-# courses =  ['Math','Art']
-# info = {'name': 'John',  'age': '22'}
 
-# student_info(*courses,**info)
+def student_info(*args,**kwargs):
+    print(args)
+    print(kwargs)
+
+courses =  ['Math','Art']
+info = {'name': 'John',  'age': '22'}
+
+student_info(*courses,**info)
  
 # Number of days per month. First value placeholder for indexing purposes.
 month_days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
